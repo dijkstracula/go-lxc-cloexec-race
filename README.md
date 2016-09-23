@@ -1,6 +1,7 @@
 This is a simple test to validate that `go-lxc` does not correctly prevent
 file descriptors from being inherited while we concurrently fork() processes
-to perform container operations.
+to perform container operations.  This issue has been [filed](https://github.com/lxc/go-lxc/issues/66) with the go-lxc
+maintainers.
 
 === Description
 
